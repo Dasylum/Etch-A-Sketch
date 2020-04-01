@@ -1,0 +1,52 @@
+body{
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Notable', sans-serif;
+    background-position: top;
+    opacity: 0.8;
+    color: white;
+}
+
+
+.grid {
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+}
+
+#container {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width: 208px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#clear {
+    padding-right: 20px;
+}
+
+.container {
+    width: 608px;
+    height: 608px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+
+
+.grid:hover {
+    transform: scale(1.1);
+    border: none;
+}
+
+.gameboard {
+    display: flex;
+}
